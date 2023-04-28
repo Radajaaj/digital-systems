@@ -1,0 +1,13 @@
+v 3
+file . "conversorf.vhd" "20221215010350.000" "20221215110008.738":
+  entity conversorf at 1( 0) + 0 on 51;
+  architecture convertidor of conversorf at 12( 262) + 0 on 52;
+file . "demuxf2x6.vhd" "20221215133522.000" "20221215110008.739":
+  entity demuxf2x6 at 1( 0) + 0 on 53;
+  architecture demuxagem of demuxf2x6 at 15( 304) + 0 on 54;
+file . "muxf2x6.vhd.vhd" "20221215010258.000" "20221215110008.740":
+  entity muxf2x6 at 1( 0) + 0 on 55;
+  architecture muxagem of muxf2x6 at 13( 260) + 0 on 56;
+file . "tb_final.vhd" "20221215013546.000" "20221215110008.742":
+  entity tb_final at 1( 0) + 0 on 57;
+  architecture conversivel of tb_final at 8( 85) + 0 on 58;

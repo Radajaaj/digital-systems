@@ -1,0 +1,7 @@
+v 3
+file . "conversor.vhd" "20221215005622.000" "20221214215640.186":
+  entity conversor at 1( 0) + 0 on 17;
+  architecture conversivel of conversor at 12( 260) + 0 on 18;
+file . "tb_conversor.vhd" "20221215000148.000" "20221214215640.206":
+  entity tb_conversor at 1( 0) + 0 on 19;
+  architecture simconversor of tb_conversor at 8( 88) + 0 on 20;

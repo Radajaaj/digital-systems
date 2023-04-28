@@ -1,0 +1,10 @@
+v 3
+file . "demuxi2x6.vhd" "20221214191456.000" "20221214161548.896":
+  entity demux2x6 at 1( 0) + 0 on 25;
+  architecture demuxagem of demux2x6 at 13( 265) + 0 on 26;
+file . "muxi2x6.vhd.vhd" "20221214191454.000" "20221214161548.898":
+  entity mux2x6 at 1( 0) + 0 on 27;
+  architecture muxagem of mux2x6 at 13( 258) + 0 on 28;
+file . "tb_muxdemuxi2x6.vhd" "20221214191452.000" "20221214161548.899":
+  entity tb_muxdemuxi2x6 at 1( 0) + 0 on 29;
+  architecture simedux of tb_muxdemuxi2x6 at 8( 91) + 0 on 30;

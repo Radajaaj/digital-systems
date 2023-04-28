@@ -1,0 +1,7 @@
+v 3
+file . "tb_demux2x6.vhd" "20221214174144.000" "20221214144422.026":
+  entity tb_demux2x6 at 1( 0) + 0 on 13;
+  architecture sidemux of tb_demux2x6 at 8( 87) + 0 on 14;
+file . "demux2x6.vhd" "20221214172810.000" "20221214144306.442":
+  entity demux2x6 at 1( 0) + 0 on 11;
+  architecture demuxagem of demux2x6 at 13( 265) + 0 on 12;

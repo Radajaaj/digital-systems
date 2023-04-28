@@ -1,0 +1,7 @@
+v 3
+file . "tb_mux2x6.vhd" "20221214170728.000" "20221214141146.050":
+  entity tb_mux2x6 at 1( 0) + 0 on 13;
+  architecture simux of tb_mux2x6 at 8( 85) + 0 on 14;
+file . "mux2x6.vhd" "20221214170732.000" "20221214140743.049":
+  entity mux2x6 at 1( 0) + 0 on 11;
+  architecture muxagem of mux2x6 at 13( 257) + 0 on 12;

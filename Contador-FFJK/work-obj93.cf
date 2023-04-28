@@ -1,0 +1,16 @@
+v 3
+file . "Contador-3-Bits.vhdl" "20230425205916.000" "20230425175921.334":
+  entity contador3bits at 1( 0) + 0 on 41;
+  architecture contagem of contador3bits at 13( 255) + 0 on 42;
+file . "ctrl.vhdl" "20230425204512.000" "20230425175921.335":
+  entity ctrl at 1( 0) + 0 on 43;
+  architecture control of ctrl at 12( 228) + 0 on 44;
+file . "flipflopjk.vhdl" "20230425204510.000" "20230425175921.335":
+  entity ffjk at 1( 0) + 0 on 45;
+  architecture ff of ffjk at 13( 220) + 0 on 46;
+file . "tb_Contador3BITS.vhdl" "20230425205606.000" "20230425175921.336":
+  entity tb_contador at 1( 0) + 0 on 47;
+  architecture conza of tb_contador at 7( 86) + 0 on 48;
+file . "tb_controle.vhdl" "20230420135106.000" "20230425175921.337":
+  entity tbctrl at 1( 0) + 0 on 49;
+  architecture control of tbctrl at 7( 83) + 0 on 50;

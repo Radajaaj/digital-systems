@@ -1,0 +1,66 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Apr 25 21:23:38 2023
+[*]
+[dumpfile] "D:\Downloads\UNIOESTE\SD\VHDL\contador\tb_contador.ghw"
+[dumpfile_mtime] "Tue Apr 25 20:59:22 2023"
+[dumpfile_size] 2661
+[savefile] "D:\Downloads\Projeto_Final_Contador_13257.gtkw"
+[timestart] 0
+[size] 1366 745
+[pos] -113 -113
+*-26.266541 9600000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_contador.
+[treeopen] top.tb_contador.u_contador.
+[sst_width] 197
+[signals_width] 128
+[sst_expanded] 1
+[sst_vpaned_height] 204
+@28
+[color] 1
+top.tb_contador.sclk
+[color] 1
+top.tb_contador.svcc
+[color] 1
+top.tb_contador.sreset
+@800028
+[color] 3
+#{top.tb_contador.u_contador.k[2:0]} top.tb_contador.u_contador.k[2] top.tb_contador.u_contador.k[1] top.tb_contador.u_contador.k[0]
+@28
+[color] 3
+top.tb_contador.u_contador.k[2]
+[color] 3
+top.tb_contador.u_contador.k[1]
+[color] 3
+top.tb_contador.u_contador.k[0]
+@1001200
+-group_end
+@800028
+[color] 3
+#{top.tb_contador.u_contador.j[2:0]} top.tb_contador.u_contador.j[2] top.tb_contador.u_contador.j[1] top.tb_contador.u_contador.j[0]
+@28
+[color] 3
+top.tb_contador.u_contador.j[2]
+[color] 3
+top.tb_contador.u_contador.j[1]
+[color] 3
+top.tb_contador.u_contador.j[0]
+@1001200
+-group_end
+@28
+#{top.tb_contador.u_contador.q[2:0]} top.tb_contador.u_contador.q[2] top.tb_contador.u_contador.q[1] top.tb_contador.u_contador.q[0]
+@800024
+[color] 5
+#{top.tb_contador.ssai[2:0]} top.tb_contador.ssai[2] top.tb_contador.ssai[1] top.tb_contador.ssai[0]
+@29
+[color] 7
+top.tb_contador.ssai[2]
+[color] 7
+top.tb_contador.ssai[1]
+[color] 7
+top.tb_contador.ssai[0]
+@1001204
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

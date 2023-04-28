@@ -1,0 +1,13 @@
+v 3
+file . "flipflopjkNOVO.vhdl" "20230425194706.000" "20230425164713.781":
+  entity ffjk_novo at 1( 0) + 0 on 41;
+  architecture ffn of ffjk_novo at 13( 224) + 0 on 42;
+file . "tb_FFJK_ORIG.vhdl" "20230425194406.000" "20230425164713.784":
+  entity tb_ffjk_orig at 1( 0) + 0 on 47;
+  architecture tb_teste_o of tb_ffjk_orig at 7( 86) + 0 on 48;
+file . "tb_FFJK_Novo.vhdl" "20230425192516.000" "20230425164713.783":
+  entity tb_ffjk_novo at 1( 0) + 0 on 45;
+  architecture tb_teste_n of tb_ffjk_novo at 7( 86) + 0 on 46;
+file . "flipflopjkORIG.vhdl" "20230425192256.000" "20230425164713.782":
+  entity ffjk_orig at 1( 0) + 0 on 43;
+  architecture ffo of ffjk_orig at 13( 226) + 0 on 44;

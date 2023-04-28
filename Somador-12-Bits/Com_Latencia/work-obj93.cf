@@ -1,0 +1,28 @@
+v 3
+file . "tb_somadorlatLAT.vhdl" "20230209191734.000" "20230216223845.755":
+  entity tb_somador at 1( 0) + 0 on 227;
+  architecture teste of tb_somador at 7( 84) + 0 on 228;
+file . "tb_somadorfinalLAT.vhdl" "20230217013842.000" "20230216223845.754":
+  entity tb_somadorfinal at 1( 0) + 0 on 225;
+  architecture somareduz of tb_somadorfinal at 7( 89) + 0 on 226;
+file . "tb_somador12bitsLAT.vhdl" "20230216193928.000" "20230216223845.752":
+  entity tb_somador12bits at 1( 0) + 0 on 223;
+  architecture soma12bit of tb_somador12bits at 7( 90) + 0 on 224;
+file . "somadorLAT.vhdl" "20230216221642.000" "20230216223845.752":
+  entity somador at 1( 0) + 0 on 221;
+  architecture comuta of somador at 15( 258) + 0 on 222;
+file . "somador12bitsLAT.vhdl" "20230216191152.000" "20230216223845.751":
+  entity somador12bits at 1( 0) + 0 on 219;
+  architecture somagem of somador12bits at 14( 334) + 0 on 220;
+file . "overflowLAT.vhdl" "20230216210538.000" "20230216223845.751":
+  entity overflow at 1( 0) + 0 on 217;
+  architecture overflacao of overflow at 14( 223) + 0 on 218;
+file . "NegadorLAT.vhdl" "20230217013220.000" "20230216223845.750":
+  entity negador at 1( 0) + 0 on 215;
+  architecture negacao of negador at 11( 206) + 0 on 216;
+file . "Mux2x12LAT.vhdl" "20230217011302.000" "20230216221818.273":
+  entity mux2x12d at 1( 0) + 0 on 135;
+  architecture muxage of mux2x12d at 13( 312) + 0 on 136;
+file . "Mux2x12.vhdl" "20230217012150.000" "20230216223845.750":
+  entity mux2x12 at 1( 0) + 0 on 213;
+  architecture muxacao of mux2x12 at 13( 310) + 0 on 214;

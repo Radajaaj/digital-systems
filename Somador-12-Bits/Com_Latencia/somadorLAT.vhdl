@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+ 
+entity somador is
+    port(
+        a    : in std_logic;
+        b    : in std_logic;
+        cin  : in std_logic;
+        s    : out std_logic;
+        cout : out std_logic
+        );
+end entity;
+
+
+architecture comuta of somador is
+    begin
+        cout <= ((a and (b or cin)) or (b and cin)) after 4*2 ns;
+        s <= ((a xor b) xor cin) after 4*2 ns;
+
+        
+end architecture;

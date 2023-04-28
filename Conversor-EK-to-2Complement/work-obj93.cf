@@ -1,0 +1,13 @@
+v 3
+file . "tb_tudo1.vhdl" "20221221011842.000" "20221220221859.739":
+  entity tb_tudo at 1( 0) + 0 on 19;
+  architecture test of tb_tudo at 7( 75) + 0 on 20;
+file . "mux2x6.vhdl" "20221221011848.000" "20221220221859.727":
+  entity mux2x6 at 1( 0) + 0 on 17;
+  architecture behavior of mux2x6 at 13( 275) + 0 on 18;
+file . "demux2x6.vhdl" "20221221011854.000" "20221220221859.715":
+  entity demux2x6 at 1( 0) + 0 on 15;
+  architecture descomutar of demux2x6 at 16( 309) + 0 on 16;
+file . "conversor.vhdl" "20221221011808.000" "20221220221859.703":
+  entity conversor at 1( 0) + 1 on 13;
+  architecture behavior of conversor at 11( 184) + 0 on 14;
