@@ -2,7 +2,9 @@
 Repositório para a matéria de sistemas digitais. Usando VHDL para descrever, GHDL para simular e GTKWave para visualizar diferentes tipos de hardware e circuitos digitais.
 
 ## Compilação:
-* Instale o compilador GHDL (http://ghdl.free.fr/);
+* Instale o compilador GHDL:
+  * http://ghdl.free.fr/;
+  * https://github.com/ghdl/ghdl/releases;
 * Abra o terminal na mesma pasta aonde estão os arquivos .vhdl e .vhd;
 * Execute os comandos:
 * ghdl -a *.vhdl;
