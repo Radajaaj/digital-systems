@@ -6,7 +6,7 @@ Repositório para a matéria de sistemas digitais. Usando VHDL para descrever, G
 * Abra o terminal na mesma pasta aonde estão os arquivos .vhdl e .vhd;
 * Execute os comandos:
 * ghdl -a *.vhdl;
-*   Se ocorrer algum erro, delete o arquivo "work-obj93.cf", execute o comando novamente. Um arquivo novo com o mesmo nome será criado;
+  * Se ocorrer algum erro, delete o arquivo "work-obj93.cf", e execute o comando novamente. Um arquivo novo com o mesmo nome será criado;
 * ghdl -r testbenchname --stop-time=40ns -- wave=testbenchname.ghw;
 
 ## Visualização do código:
