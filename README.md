@@ -8,6 +8,8 @@ Repositório para a matéria de sistemas digitais. Usando VHDL para descrever, G
 * ghdl -a *.vhdl;
   * Se ocorrer algum erro, delete o arquivo "work-obj93.cf", e execute o comando novamente. Um arquivo novo com o mesmo nome será criado;
 * ghdl -r testbenchname --stop-time=40ns -- wave=testbenchname.ghw;
+  * No lugar de "testbench", coloque o nome da primeira "entidade" que for declarada dentro do arquivo chamado "tb_FunçãoDoArquivo.vhdl"
+  * A testbench serve para gerir os bits e sinais que vão entrar no circuito a ser simulado;
 
 ## Visualização do código:
 * Instale o GTKWave (https://gtkwave.sourceforge.net/);
