@@ -7,8 +7,8 @@ Repositório para a matéria de sistemas digitais. Usando VHDL para descrever, G
   * https://github.com/ghdl/ghdl/releases;
 * Abra o terminal na mesma pasta aonde estão os arquivos .vhdl e .vhd;
 * Execute os comandos:
-* ghdl -a *.vhdl;
-  * O terceiro argumento, "*.vhdl", serve para definir qual arquivo vai ser avaliado. Use "*" para automaticamente analisar todos os arquivos com a extensão ".vhdl"
+* ghdl -a **.vhdl;
+  * O terceiro argumento, "**.vhdl", serve para definir qual arquivo vai ser avaliado. Use "**" para automaticamente analisar todos os arquivos com a extensão ".vhdl"
   * Se ele puder ser compilado, o comando não terá nenhum retorno. Se o código possuir erros na sintaxe, o comando retornará uma lista com a localização de todos os erros.
   * Se ocorrer algum erro, delete o arquivo "work-obj93.cf", e execute o comando novamente. Um arquivo novo com o mesmo nome será criado;
 * ghdl -r testbenchname --stop-time=999ns -- wave=testbenchname.ghw;
