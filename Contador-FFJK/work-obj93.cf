@@ -1,16 +1,16 @@
-v 3
-file . "Contador-3-Bits.vhdl" "20230425205916.000" "20230425175921.334":
-  entity contador3bits at 1( 0) + 0 on 41;
-  architecture contagem of contador3bits at 13( 255) + 0 on 42;
-file . "ctrl.vhdl" "20230425204512.000" "20230425175921.335":
-  entity ctrl at 1( 0) + 0 on 43;
-  architecture control of ctrl at 12( 228) + 0 on 44;
-file . "flipflopjk.vhdl" "20230425204510.000" "20230425175921.335":
-  entity ffjk at 1( 0) + 0 on 45;
-  architecture ff of ffjk at 13( 220) + 0 on 46;
-file . "tb_Contador3BITS.vhdl" "20230425205606.000" "20230425175921.336":
-  entity tb_contador at 1( 0) + 0 on 47;
-  architecture conza of tb_contador at 7( 86) + 0 on 48;
-file . "tb_controle.vhdl" "20230420135106.000" "20230425175921.337":
-  entity tbctrl at 1( 0) + 0 on 49;
-  architecture control of tbctrl at 7( 83) + 0 on 50;
+v 4
+file . "Contador-3-Bits.vhdl" "a61036e49f389d890204d665983a802f34c78e25" "20230718174355.971":
+  entity contador3bits at 1( 0) + 0 on 61;
+  architecture contagem of contador3bits at 13( 255) + 0 on 62;
+file . "ctrl.vhdl" "767cdd022be9ee308a3dde6847d575f5aa34bb83" "20230718174355.972":
+  entity ctrl at 1( 0) + 0 on 63;
+  architecture control of ctrl at 12( 228) + 0 on 64;
+file . "flipflopjk.vhdl" "3dbb0d0f338acac417156107cfa1510f49241626" "20230718174355.973":
+  entity ffjk at 1( 0) + 0 on 65;
+  architecture ff of ffjk at 13( 227) + 0 on 66;
+file . "tb_Contador3BITS.vhdl" "37b8772a33f42e1b545328878cba9e3a6765b68b" "20230718174355.974":
+  entity tb_contador at 1( 0) + 0 on 67;
+  architecture conza of tb_contador at 7( 85) + 0 on 68;
+file . "tb_controle.vhdl" "b44789f6e4f878b1a8169f205bfe32a3017a30e9" "20230718174355.975":
+  entity tbctrl at 1( 0) + 0 on 69;
+  architecture control of tbctrl at 7( 83) + 0 on 70;

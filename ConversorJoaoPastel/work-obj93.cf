@@ -1,0 +1,13 @@
+v 3
+file . "mux2x6.vhd" "20221214202926.000" "20221216235046.453":
+  entity mux2x6 at 2( 51) + 0 on 95;
+  architecture comutar of mux2x6 at 14( 318) + 0 on 96;
+file . "demux2x6.vhd" "20221217020940.000" "20221216235046.452":
+  entity demux2x6 at 2( 54) + 0 on 93;
+  architecture descomutar of demux2x6 at 14( 321) + 0 on 94;
+file . "conversorC2_Ek.vhd" "20221217025042.000" "20221216235046.452":
+  entity conversorc2_ek at 1( 0) + 0 on 91;
+  architecture conversor of conversorc2_ek at 12( 217) + 0 on 92;
+file . "conversor.vhd" "20221217021238.000" "20221216235046.450":
+  entity tb_conversor at 1( 0) + 0 on 89;
+  architecture arch of tb_conversor at 7( 96) + 4 on 90;

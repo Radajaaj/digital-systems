@@ -10,7 +10,7 @@ entity FFJK is
     );
 end entity;
  
-architecture ff o f FFJK is
+architecture ff of FFJK is
 
     signal s_snj  , s_snk   : std_logic;
     signal s_sns  , s_snr   : std_logic;

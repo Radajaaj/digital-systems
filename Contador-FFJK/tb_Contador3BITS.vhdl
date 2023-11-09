@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
- 
+
 entity tb_contador is
 end entity;
 
@@ -8,7 +8,7 @@ architecture conza of tb_contador is
 
     constant CLK_PERIOD : time := 20 ns;
 
-    component contador3bits is 
+    component contador3bits is
         port(
             clk   : in  std_logic;
             RESET : in  std_logic;
